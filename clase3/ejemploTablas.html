@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de tabla</title>
+</head>
+<body>
+    
+    <table border="1">
+        <tr>
+            <th >Encabezado 1</th>
+            <th >Encabezado 1</th>
+            <th >Encabezado 1</th>
+            <th >Encabezado 1</th>
+        </tr>
+        <tr>   
+            <td>Info 1</td>
+            <td>Info 2</td>
+            <td>Info 3</td>
+            <td rowspan="3">Info 4</td>
+        </tr>
+        <tr>
+            <td colspan="3"> celda de 3 casilleros</td>
+        </tr>
+        <tr>
+            <td>Individual</td>
+            <td colspan="2">celda de 2 casilleros</td>
+        </tr>
+    </table>
+
+    <form action="#" method="GET">
+        <label>Nombre</label>
+        <input type="text" name="nombreUsuario" value="Maximiliano" required readonly><br>
+        <label for="">Email</label>
+        <input type="email" name="correo" required placeholder="Ingresa tu correo"><br>
+        <label for="">Edad</label>
+        <input type="number" max="10" min="0" name="edadUsuario"><br>
+        <label for="">Fecha de Nacimiento</label>
+        <input type="date"><br>
+        <label for="">Contraseña</label> 
+        <input type="password"><br>
+        <label for="direccion">Dirección</label>
+        <input type="text" id="dirección"><br>
+        <label for="localidad"></label>
+        <input type="text" id="localidad"><br>
+
+        <label for="lista">Lista</label>
+        <select name="opciones" id="lista">
+            <option value="1">Opcion 1</option>
+            <option value="2">Opcion 2</option>
+            <option value="3">Opcion 3</option>
+        </select>
+        <input type="submit" value="Enviar">
+        <button type="submit">Este tambien envia</button>
+        <button type="reset">Limpiar</button>
+        <button type="button">Click Aquí</button>
+    </form>
+</body>
+</html>
