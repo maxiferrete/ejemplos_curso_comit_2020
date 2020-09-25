@@ -1,0 +1,80 @@
+.fila {
+    display: flex;
+    justify-content: center;
+}
+.celda {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(58, 128, 87);
+}
+#divderecho{
+    background-color: rgb(92, 92, 156);
+}
+h3{
+    text-transform: capitalize;
+}
+
+.filainline {
+    /*el padre necesita alinar el texto en central*/
+    text-align: center;
+} 
+.celdainline {
+    background-color: rgb(97, 41, 102);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+#divderechoinline{
+    background-color: rgb(18, 221, 28);
+}
+img{
+    width:150px;
+}
+
+.filacentradovertical{
+    
+  height: 200px;
+  width: 100pc;
+  background: rgb(209, 209, 116);
+  
+  /* display flex y align-items permite alinear el contenido verticalemente en la fila; */
+  display: flex;
+  align-items: center;
+}
+
+.filaverticalflexbox {
+    background: rgb(194, 50, 175);
+    height: 400px;
+    /*otra forma de alinear es con display flex y align-items center*/
+    display: flex;
+    align-items: center;
+}
+
+.filaverticalflexboxmultiple {
+    background: rgb(41, 4, 110);
+    height: 600px;
+    /*para alinear varios elementes verticalmente, display flex, flex direction column y justify-content center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filaverticalflexboxmultiple img{
+    width: 100px;
+}
+.celdav {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(4, 34, 17);
+    
+}
+  
+.godOfCentering {
+    background: rgb(236, 131, 45);
+    height: 450px;
+    /* de vuelta utilizamos display flex pero ahora agregamos justify-content (horizontal) y align-items (vertical)*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
