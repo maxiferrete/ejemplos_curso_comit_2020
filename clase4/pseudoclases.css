@@ -1,0 +1,22 @@
+button:hover{
+    background-color: green;
+    border-width: 5px;
+    box-shadow: 2px 5px rgb(83, 82, 82);
+}
+button{
+    background-color: #003998;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 5px;
+    border: 0px;
+}
+
+div{
+    width: 200px;
+    height: 250px;
+    background-color: salmon;
+    /*transition: width 1s;*/
+}
+div:hover{
+    width:250px;
+}

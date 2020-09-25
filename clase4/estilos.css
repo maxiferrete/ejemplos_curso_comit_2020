@@ -1,0 +1,50 @@
+#pceleste{
+    color:lightblue;
+    background-color: black;
+}
+.pmarron{
+    color:brown; 
+    text-align: center;   
+    background-color: #33de33; 
+}
+
+p{
+    color:green;
+    font-size:1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+} 
+
+p{
+    color: blue;
+}
+
+.fuente{
+    font-size: 25px;
+    background-color: coral;
+}
+
+.fuentep{
+    font-size: 15px;
+}
+
+span{
+    color:rgba(255, 255, 255, 0.2);
+    background-color: darkblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+
+
+/*#titulo{
+    color:red;
+}*/
+/*
+.estiloh2{
+    color:blue;
+}*/
+h2{
+    color:green;
+    text-transform: capitalize;
+}

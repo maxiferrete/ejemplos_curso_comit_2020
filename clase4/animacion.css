@@ -1,0 +1,40 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    left:0px;
+    top: 0px;
+    z-index: 20;
+    margin: 0;
+  }
+  #nombre{
+      width: 0px;
+      height: 100px;
+      position: absolute;
+      left:0px;
+      top: 0px;
+      z-index: 10;
+      background-color: black;
+      animation: aparece 5s;
+      animation-fill-mode: forwards;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:400px; top:0px;}
+    75%  {background-color:green; left:600px; top:0px;}
+    100% {background-color:red; left:800px; top:0px;}
+  }
+
+  @keyframes aparece {
+    0%   {width: 100px; left: 0px; top:0px;}
+    25%  {width: 300px; left: 0px; top:0px;}
+    50%  {width: 500px; left: 0px; top:0px;}
+    75%  {width: 700px; left: 0px; top:0px;}
+    100% {width: 800px; left: 0px; top:0px;}
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de estilos</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <style>
+        #pverde{
+            color:green;
+        }
+        .pazul{
+            color:blue;
+        } 
+        /* span{ 
+            color:darkred;
+        } */
+
+    </style>
+    
+</head>
+<body>
+
+    <!--ejemplo de estilo en linea-->
+    <h3>estilo en linea</h3>
+    <p style="color:red">un parrafo rojo</p>
+
+    <!--ejemplo de estilo internos en la cabecera del documento-->
+    <!--por ID-->
+    <h3>estilos internos</h3>
+    <p id="pverde">un parrafo en verde</p>
+    <!--por clase-->
+    <p class="pazul">un parrafo azul</p>
+
+    <!-- <div class="pmarron"> <p>texto de ejemplo</p> </div> -->
+    <h3 >estilos externos desde un archivo css cargado en el head</h3>
+    <div></div>
+    <p id="pceleste" class="pmarron">Ejemplo de Predominancia</p>
+    <p class="pmarron">este es un parrafo marron</p>
+    
+    <!--cascada de estilos y prevalecencia-->
+    <div class="fuente">
+        <p>este un P que recibe su estilo por el padre</p>
+        <p class="fuentep">pero este otro P tiene su propio estilo y ese es el que prevalece</p>
+    </div>
+
+    <p>primer parrafo</p>
+    <p>segundo parrafo</p>
+
+    
+        <span >ejemplo de prevalecencia en un span</span>
+    
+    <!-- <div>
+        <h2 id="titulo" class="estiloh2">Ejemplo de Predominancia en un encabezado H2</h2>
+    </div> -->
+
+
+</body>
+</html>
