@@ -16,7 +16,7 @@ h3{
 
 .filainline {
     /*el padre necesita alinar el texto en central*/
-    text-align: center;
+    text-align: right;
 } 
 .celdainline {
     background-color: rgb(97, 41, 102);
